@@ -1,0 +1,173 @@
+* {
+  font-family: "Bungee", monospace;
+}
+
+h1 {
+  position: absolute;
+  width: 370px;
+  height: 78px;
+  margin-left: 750px;
+  margin-top: 60px;
+  font-family: "Bungee Outline", monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 115px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+p {
+  position: absolute;
+  width: 410px;
+  height: 29px;
+  left: 518px;
+  top: 634px;
+  font-family: "Bungee", monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+
+.foto {
+  position: absolute;
+  width: 383px;
+  height: 398px;
+  left: 313px;
+  top: 187px;
+  background: url(4.jpg);
+  border: 3px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 10px 10px 0px #FFC83D;
+          box-shadow: 10px 10px 0px #FFC83D;
+  border-radius: 20px;
+}
+
+.nav {
+  position: absolute;
+  width: 94px;
+  height: 219px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.nav .tienda {
+  position: absolute;
+  width: 252px;
+  height: 37px;
+  left: 805px;
+  top: 319px;
+  font-family: "Bungee", monospace, monospace;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 58px;
+  text-align: center;
+  font-size: 48px;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+  -webkit-text-fill-color: #FFC83D;
+  -webkit-text-stroke: 3px black;
+  text-shadow: 5px 5px 0px #070706;
+}
+
+.nav .tienda a {
+  text-decoration: none;
+}
+
+.nav .tienda:hover {
+  text-shadow: -1px -1px 1px #FFC83D, 1px 1px 1px #FFC83D, -1px 1px 1px #FFC83D, 1px -1px 1px #FFC83D;
+  -webkit-text-fill-color: #000;
+  -webkit-text-stroke: 3px #FFC83D;
+}
+
+.wpp {
+  position: absolute;
+  width: 176px;
+  height: 36px;
+  left: 805px;
+  top: 476px;
+  font-family: "Bungee", monospace, monospace;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 58px;
+  text-align: center;
+  font-size: 48px;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+  -webkit-text-fill-color: #FFC83D;
+  -webkit-text-stroke: 3px black;
+  text-shadow: 5px 5px 0px #070706;
+}
+
+.wpp:hover {
+  text-shadow: -1px -1px 1px #FFC83D, 1px 1px 1px #FFC83D, -1px 1px 1px #FFC83D, 1px -1px 1px #FFC83D;
+  -webkit-text-fill-color: #000;
+  -webkit-text-stroke: 3px #FFC83D;
+}
+
+.web {
+  position: absolute;
+  width: 176px;
+  height: 36px;
+  left: 802px;
+  top: 400px;
+  font-family: "Bungee", monospace, monospace;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 58px;
+  text-align: center;
+  font-size: 48px;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+  -webkit-text-fill-color: #FFC83D;
+  -webkit-text-stroke: 3px black;
+  text-shadow: 5px 5px 0px #070706;
+}
+
+.web:hover {
+  text-shadow: -1px -1px 1px #FFC83D, 1px 1px 1px #FFC83D, -1px 1px 1px #FFC83D, 1px -1px 1px #FFC83D;
+  -webkit-text-fill-color: #000;
+  -webkit-text-stroke: 3px #FFC83D;
+}
+
+.uno {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  left: 755px;
+  top: 314px;
+}
+
+.dos {
+  position: absolute;
+  width: 89px;
+  height: 90px;
+  margin-left: 755px;
+  margin-top: 383px;
+}
+
+.tres {
+  position: absolute;
+  width: 104px;
+  height: 100px;
+  left: 758px;
+  top: 470px;
+}
+
+.wave {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 0px;
+  top: 0px;
+}
+/*# sourceMappingURL=styles.css.map */
