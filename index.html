@@ -4,40 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>🅁🅄🄳🄰 Links</title>
-
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Outline&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- CSS -->
     <link rel="stylesheet" href="/css/styles.css">
+
+    <title>🅁🅄🄳🄰 Links</title>
+
 
 </head>
 <body>
-
-    <svg class="wave"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#00000" fill-opacity="1"
-            d="M0,96L18.5,80C36.9,64,74,32,111,53.3C147.7,75,185,149,222,181.3C258.5,213,295,203,332,176C369.2,149,406,107,443,80C480,53,517,43,554,32C590.8,21,628,11,665,53.3C701.5,96,738,192,775,218.7C812.3,245,849,203,886,197.3C923.1,192,960,224,997,224C1033.8,224,1071,192,1108,181.3C1144.6,171,1182,181,1218,154.7C1255.4,128,1292,64,1329,74.7C1366.2,85,1403,171,1422,213.3L1440,256L1440,0L1421.5,0C1403.1,0,1366,0,1329,0C1292.3,0,1255,0,1218,0C1181.5,0,1145,0,1108,0C1070.8,0,1034,0,997,0C960,0,923,0,886,0C849.2,0,812,0,775,0C738.5,0,702,0,665,0C627.7,0,591,0,554,0C516.9,0,480,0,443,0C406.2,0,369,0,332,0C295.4,0,258,0,222,0C184.6,0,148,0,111,0C73.8,0,37,0,18,0L0,0Z">
-        </path>
-    </svg>
-
-    <img class="foto" src="/img/4.jpg" alt="">
-
-    <h1 class="link">LINKS</h1>
-
-
-    <ul class="nav">
-        <li class="tienda"><a href="https://rudaeshop-nine.vercel.app" target="_blank">TIENDA</a></li>
-        <li class="web"><a href="https://rudashop.vercel.app" target="_blank">WEB</a></li>
-        <li class="wpp"><a href="https://api.whatsapp.com/send/?phone=5491138553034&text&app_absent=0" target="_blank"></a>WPP</li>
-    </ul>
-
-    
-    <img class="uno" src="/img/1.png" alt="">
-    <img  class="dos" src="/img/2.png" alt="">
-    <img  class="tres" src="/img/3.png" alt="">
-
+    <!-- WAVES -->
+    <div class="container-svg">
+        <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699 320">
+            <path class="path" fill="#00000" fill-opacity="1"
+                d="M0,96L18.5,80C36.9,64,74,32,111,53.3C147.7,75,185,149,222,181.3C258.5,213,295,203,332,176C369.2,149,406,107,443,80C480,53,517,43,554,32C590.8,21,628,11,665,53.3C701.5,96,738,192,775,218.7C812.3,245,849,203,886,197.3C923.1,192,960,224,997,224C1033.8,224,1071,192,1108,181.3C1144.6,171,1182,181,1218,154.7C1255.4,128,1292,64,1329,74.7C1366.2,85,1403,171,1422,213.3L1440,256L1440,0L1421.5,0C1403.1,0,1366,0,1329,0C1292.3,0,1255,0,1218,0C1181.5,0,1145,0,1108,0C1070.8,0,1034,0,997,0C960,0,923,0,886,0C849.2,0,812,0,775,0C738.5,0,702,0,665,0C627.7,0,591,0,554,0C516.9,0,480,0,443,0C406.2,0,369,0,332,0C295.4,0,258,0,222,0C184.6,0,148,0,111,0C73.8,0,37,0,18,0L0,0Z">
+            </path>
+        </svg>
+    </div>
+    <!-- TEXT "LINKS" -->
+    <div class="link">
+        <h1 >LINKS</h1>
+    </div>
+    <!-- PHOTO -->
+    <img class="foto wow animate__animated animate__flipInX" data-wow-delay="200ms" src="/img/4.jpg" alt="foto modelo">
+    <!-- NAV -->
+    <div class="nav ">
+        <!-- ACHORS -->
+        <ul >
+            <li class="tienda"><a href="https://rudaeshop-nine.vercel.app" target="_blank">TIENDA</a></li>
+            <li class="web"><a href="https://rudashop.vercel.app" target="_blank">WEB</a></li>
+            <li class="wpp"><a href="https://api.whatsapp.com/send/?phone=5491138553034&text&app_absent=0" target="_blank">WPP</a></li>
+        </ul>
+        <!-- ICONS -->
+        <div class="iconos">
+            <img class="uno" src="/img/1.png" alt="icono tienda">
+            <img class="dos" src="/img/2.png" alt="icono web">
+            <img class="tres" src="/img/3.png" alt="icono wathsapp">
+        </div>
+    </div>
+    <!-- LOGO -->
+    <img class="logo wow animate__animated animate__flipInX" src="/img/logo-ruda.png" alt="logo">
+    <!-- FOOTER -->
     <footer>
         <p class="footer">Copyright © 🅁🅄🄳🄰 Ind. 2021</p>
     </footer>
+
+    <!-- SCRIPTS WOW -->
+<script src="js/wow.min.js"></script>
+<script>new WOW().init();</script>
 
 </body>
 </html>

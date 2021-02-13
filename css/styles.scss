@@ -4,51 +4,64 @@ $color-primary:#0000;
 $color-secondary:#FFC83D;
 
 * {
+    margin:0;
+    padding: 0;
     font-family: $font-secondary;
 }
 
 h1{
-    position: absolute;
-    width: 370px;
-    height: 78px;
-    margin-left: 750px;
-    margin-top:60px;
-
+    position:absolute;
+    top:2rem;
+    left: 50%;
+    transform: translateX(-55%);
     font-family: $font-primary;
     font-style: normal;
     font-weight: normal;
-    font-size: 96px;
+    font-size: 9rem;
     line-height: 115px;
     text-align: center;
-
-    color: #FFFFFF;
+    color:#FFF;
 }
 
 li {
-    list-style:none;
-    a{
-        text-decoration: none;
-    }
-
+    list-style: none;
 }
 
+a {
+    text-decoration: none;
+    font-size: 48px;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    -webkit-text-fill-color: #FFC83D;
+    -webkit-text-stroke: 3px black;
+    text-shadow: 5px 5px 0px #070706;
+}
+
+a:hover{
+    text-shadow: -1px -1px 1px #FFC83D, 1px 1px 1px #FFC83D, -1px 1px 1px #FFC83D, 1px -1px 1px #FFC83D;
+    -webkit-text-fill-color: #000;
+    -webkit-text-stroke: 3px #FFC83D;
+}
 
 
 p{
     position: absolute;
     width: 410px;
     height: 29px;
-    left: 518px;
     top: 634px;
-
+    left: 50%;
+    transform: translateX(-55%);
     font-family: $font-secondary;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 29px;
-
     text-align: center;
     color: #000000;
+}
+// TEXTO LINKS-------------------------------------------------------
+
+.links{
+    position: absolute;
 }
 
 // FOTO---------------------------------------------------------------
@@ -56,7 +69,7 @@ p{
     position: absolute;
     width: 383px;
     height: 398px;
-    left: 313px;
+    left: 27%;
     top: 187px;
     
     background: url(4.jpg);
@@ -69,143 +82,147 @@ p{
 // NAV---------------------------------------------------------------
 .nav{
     position: absolute;
-    width: 94px;
+    width:auto;
     height: 219px;
-    margin-left: 0px;
-    margin-top: 0px;
-
+    left: 4%;
+    top: 0px;
     
-
-
     .tienda{
         position: absolute;
         width: 252px;
         height: 37px;
         left: 805px;
         top: 319px;
-    
         font-family: $font-secondary,monospace;
         font-style: normal;
         font-weight: normal;
-        
         line-height: 58px;
         text-align: center;
-    
-        font-size: 48px;
-        text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
-        -webkit-text-fill-color: #FFC83D;
-        -webkit-text-stroke: 3px black;
-    
-        text-shadow: 5px 5px 0px #070706;
+    } 
 
+    .web{
+        position: absolute;
+        width: 176px;
+        height: 36px;
+        left: 802px;
+        top: 400px;
+        font-family: $font-secondary,monospace;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 58px;
+        text-align: center;
+    }
 
+    .wpp{
+        position: absolute;
+        width: 176px;
+        height: 36px;
+        left: 805px;
+        top: 476px;
+        font-family: $font-secondary,monospace;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 58px;
+        text-align: center;
+    }
+
+    .iconos{
+        position: absolute;
+        width: auto;
+
+        .uno{
+            position: absolute;
+            width: 100px;
+            height: 80px;
+            left: 755px;
+            top: 311px;
+        }
         
-            a{
-                text-decoration: none;
-            }
-    
-
-
+        .dos{
+            position: absolute;
+            width: 89px;
+            height: 90px;
+            left: 755px;
+            top: 382px;
+        }
+        
+        .tres{
+            position: absolute;
+            width: 104px;
+            height: 100px;
+            left: 758px;
+            top: 460px;
+        }
     }
-    .tienda:hover{
-        text-shadow: -1px -1px 1px #FFC83D, 1px 1px 1px #FFC83D, -1px 1px 1px #FFC83D, 1px -1px 1px #FFC83D;
-        -webkit-text-fill-color: #000;
-        -webkit-text-stroke: 3px #FFC83D;
-    }
-
-}
-// ELEMENTOS DEL NAV--------------------------------------------------
-.wpp{
-    position: absolute;
-    width: 176px;
-    height: 36px;
-    left: 805px;
-    top: 476px;
-
-    font-family: $font-secondary,monospace;
-    font-style: normal;
-    font-weight: normal;
-    
-    line-height: 58px;
-    text-align: center;
-
-    font-size: 48px;
-    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
-    -webkit-text-fill-color: #FFC83D;
-    -webkit-text-stroke: 3px black;
-    
-    text-shadow: 5px 5px 0px #070706;
-}
-.wpp:hover{
-    text-shadow: -1px -1px 1px #FFC83D, 1px 1px 1px #FFC83D, -1px 1px 1px #FFC83D, 1px -1px 1px #FFC83D;
-    -webkit-text-fill-color: #000;
-    -webkit-text-stroke: 3px #FFC83D;
-}
-
-.web{
-    position: absolute;
-    width: 176px;
-    height: 36px;
-    left: 802px;
-    top: 400px;
-    
-    font-family: $font-secondary,monospace;
-    font-style: normal;
-    font-weight: normal;
-    
-    line-height: 58px;
-    text-align: center;
-    
-    font-size: 48px;
-    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
-    -webkit-text-fill-color: #FFC83D;
-    -webkit-text-stroke: 3px black;
-    
-    text-shadow: 5px 5px 0px #070706;
-
-
-
-
-}
-.web:hover{
-    text-shadow: -1px -1px 1px #FFC83D, 1px 1px 1px #FFC83D, -1px 1px 1px #FFC83D, 1px -1px 1px #FFC83D;
-    -webkit-text-fill-color: #000;
-    -webkit-text-stroke: 3px #FFC83D;
-}
-
-
-
-.uno{
-    position: absolute;
-    width: 100px;
-    height: 80px;
-    left: 755px;
-    top: 314px;
-    
-}
-
-.dos{
-    position: absolute;
-    width: 89px;
-    height: 90px;
-    margin-left: 755px;
-    margin-top: 383px;
-}
-
-.tres{
-    position: absolute;
-    width: 104px;
-    height: 100px;
-    left: 758px;
-    top: 470px;
 }
 
 // WAVE---------------------------------------------------------------------------------
 
 .wave{
     position: absolute;
-    width: auto;
-    height: auto;
-    left: 0px;
-    top: 0px;
+    height: 100%; 
+    width: 100%; 
+    left: 0; 
+    top: 0;
+}
+
+.container-svg{
+    position: relative; 
+    height: 0;
+    width: 100%;
+    padding: 0;
+    padding-bottom:100% * 320/699 ; 
+}
+
+.logo{
+    position: absolute;
+    width: 10%;
+    top: 2rem;
+    left: 2rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin:0;
+        padding: 0;
+    }
+
+
+    h1{
+        position: absolute;
+        top: 8rem;
+        left: 12rem;
+        font-size: 5.5rem;
+        color: black;
+    }
+
+    p{
+        width: 18rem;
+        left: 12.1rem;
+        top: 57rem;
+        font-size: 1rem;
+        
+    }
+
+    .foto {
+        width: 20rem;
+        height: 20rem;
+        left: 1rem;
+        top: 34rem;
+    }
+
+    .nav{
+        position: relative;
+        width: 20rem;
+        left: -45rem;
+        top: -14rem;
+    }
+
+    .logo{
+        position: absolute;
+        width: 25%;
+        top: 2rem;
+        left: 8rem;
+    }
 }
